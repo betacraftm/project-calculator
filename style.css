@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+body {
+  background-color: #260414;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 200px;
+  height: auto;
+  padding: 30px;
+  /* margin-top: ; */
+  border: 1px solid azure;
+  border-radius: 10px;
+  /* margin: 100px auto 0px auto; */
+}
+.display-expression {
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.alert {
+  display: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.alert-show {
+  display: block;
+}
+
+#display-screen {
+  width: 200px;
+  text-align: right;
+  /* overflow-wrap: break-word; */
+  line-height: 50px;
+}
+
+.cal-button {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+button {
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #3c4b4d;
+  color: azure;
+}
+#equal {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column: 4;
+  float: right;
+  background-color: #5c9107;
+}
+button:active {
+  background-color: #3c4b4dc3;
+}
+#equal:active {
+  background-color: #5c9107aa;
+}
